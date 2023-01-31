@@ -28,7 +28,7 @@ permalink: /
             {% if art.archived == false %}
             <div class="col-6 col-sm-3">
                 <div class="card shadow m-1">
-                    <img src="{{ art.img | relative_url }}" alt="Image" class="card-img-top">
+                    <img class="fixed_height_img" src="{{ art.img | relative_url }}" alt="Image" class="card-img-top">
 
                     <div class="card-body">
                     <h5 class="card-title">
